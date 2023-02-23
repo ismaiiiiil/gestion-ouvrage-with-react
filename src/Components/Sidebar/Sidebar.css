@@ -1,0 +1,33 @@
+.sidebar {
+  width: 25%;
+  background-color: #f6f6f6;
+  height: calc(100vh - 68px);
+}
+
+.sidebar ul{
+  list-style: none;
+  margin-left: -40px;
+}
+
+.sidebar li {
+  margin: 5px auto;
+}
+.sidebar li a{
+  display: block;
+  text-align: center;
+  color: #333;
+  padding: 7px;
+  left:0;
+  margin: 10px 0px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.sidebar li a:hover {
+  background-color: #3d5ee1;
+  color:#f6f6f6;
+}
+.active {
+  background-color: #3d5ee1;
+  color:#f6f6f6;
+}
